@@ -1,0 +1,30 @@
+2018-Jun-01 11:54:21.921078 Personal queue opened as RDONLY for 30305
+2018-Jun-01 11:54:21.921622 Waiting for free lock queue
+2018-Jun-01 11:54:21.921724 Trying to get lock
+2018-Jun-01 11:54:21.922029 Sending: "30305 lock 0 " to lockQueue
+2018-Jun-01 11:54:21.922121 Got a lock
+2018-Jun-01 11:54:21.922218 Got message "30304 hello 0 "
+2018-Jun-01 11:54:21.922321 Personal queue opened as WRONLY for 30304
+2018-Jun-01 11:54:21.922401 Sending: "30305 requestContacts 0 " to 30304
+2018-Jun-01 11:54:22.231695 Got message "30304 sendContacts 8 30304 [ABCDE] 2018-Jun-01 11:54:21.918711 30305 [] 2018-Jun-01 11:54:22.105752 "
+2018-Jun-01 11:54:22.232299 Personal queue opened as WRONLY for 30304
+2018-Jun-01 11:54:22.232822 Personal queue opened as RDONLY for 30305
+2018-Jun-01 11:54:22.233322 Sending: "30305 sendContacts 6 30304 [ABCDE] 2018-Jun-01 11:54:21.918711 30305 [ABCDE] 2018-Jun-01 11:54:22.233168 " to 30304
+2018-Jun-01 11:54:22.233700 Sending: "30305 hello 0 " to globalQueue
+2018-Jun-01 11:54:22.234104 Got message "30305 lock 0 "
+2018-Jun-01 11:54:22.234433 Freed a lock
+2018-Jun-01 11:54:22.234740 Started listening to personalQueue
+2018-Jun-01 11:54:29.657180 Personal queue opened as WRONLY for 30304
+2018-Jun-01 11:54:29.657470 Personal queue opened as RDONLY for 30305
+2018-Jun-01 11:54:29.657663 Got contacts from 30304
+2018-Jun-01 11:54:37.663154 Sending: "30305 sendContacts 6 30304 [] 2018-Jun-01 11:54:29.567616 30305 [ABCD] 2018-Jun-01 11:54:37.663115 " to 30304
+2018-Jun-01 11:54:37.663296 
+2018-Jun-01 11:54:37.663691 Sending: "30305 sendSymbol 1 E " to 30304
+2018-Jun-01 11:54:37.663781 Sending: "30305 giveMarker 0 " to 30304
+2018-Jun-01 11:54:38.054158 Personal queue opened as WRONLY for 30304
+2018-Jun-01 11:54:38.054498 Personal queue opened as RDONLY for 30305
+2018-Jun-01 11:54:38.054720 Got contacts from 30304
+2018-Jun-01 11:54:47.696131 Sending: "30305 sendContacts 6 30304 [E] 2018-Jun-01 11:54:37.869167 30305 [ABC] 2018-Jun-01 11:54:47.696070 " to 30304
+2018-Jun-01 11:54:47.696380 
+2018-Jun-01 11:54:47.696611 Sending: "30305 sendSymbol 1 D " to 30304
+2018-Jun-01 11:54:47.696862 Sending: "30305 giveMarker 0 " to 30304

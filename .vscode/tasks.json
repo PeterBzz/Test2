@@ -1,0 +1,25 @@
+
+{
+    "version": "2.0.0",
+    "tasks":
+    [
+        {
+            "label": "build cpp",
+            "type": "shell",
+            "command": "g++",
+            "args":
+            [
+                "-std=c++11",
+                "-o", "build/app.out",
+                "-g", "src/main.cpp",
+                "src/Debug/*.cpp", "src/App/*.cpp", "src/Contact/*.cpp", "src/Message/*.cpp", "src/Timer/*.cpp",
+                "-lpthread", "-lrt", "-lboost_date_time"
+            ],
+            "group":
+            {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

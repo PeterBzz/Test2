@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "istream": "cpp",
+        "vector": "cpp",
+        "cstdio": "cpp",
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "thread": "cpp",
+        "*.ipp": "cpp",
+        "iosfwd": "cpp",
+        "*.tpp": "cpp",
+        "system_error": "cpp",
+        "slist": "cpp",
+        "initializer_list": "cpp",
+        "cctype": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "atomic": "cpp",
+        "cstdint": "cpp",
+        "chrono": "cpp"
+    }
+}
